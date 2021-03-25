@@ -1,0 +1,52 @@
+body
+{
+    background: radial-gradient(circle farthest-side at 30px 20px, #AAC9CE, #F3DBCF);
+    /*
+    #194f6b
+    #bfc6cc
+    #094152
+    */
+}
+header
+{
+    font-family: 'Baloo Tamma', cursive;;
+    text-decoration: overline;
+    text-decoration-color: #a9a5a2;
+    text-decoration-style: solid;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+.content
+{
+
+    background-color: #C8C6C9;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+    border-radius: 11px;
+    border-color: #a9a5a2;
+    border-width: 8px;
+    border-style: double;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+
+}
+.content table td
+{
+    border-color: #8b776d;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F3DBCF;
+    width: auto;
+    font-family: 'Arima Madurai', cursive;
+
+}
+.content select, input
+{
+    background-color: #F3DBCF;
+    font-family: 'Arima Madurai', cursive;
+}

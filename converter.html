@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <script type="text/javascript" src="converter_JS.js"></script>
+    <link href="converter_style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Currency Converter</h1>
+</header>
+<div class="content">
+<table id="myTable">
+    <tr>
+        <td>Currency on hand</td>
+        <td>Amount</td>
+        <td>Covert to:</td>
+        <td>Conversion Value</td>
+    </tr>
+    <tr>
+        <td>
+            <select id="convertFrom" onchange="calculations()">
+                <option value="choose" selected>Choose...</option>
+                <option value="euro">Euro</option>
+                <option value="us">US Dollar</option>
+                <option value="uk">UK Pound Sterling</option>
+                <option value="yen">Japanese Yen</option>
+                <option value="cad">Canadian Dollar</option>
+            </select>
+        </td>
+        <td>
+            <input type="number" id="amountInput">
+        </td>
+        <td>
+            <select id="convertTo" onchange="calculations()">
+                <option value="choose" selected>Choose...</option>
+                <option value="euro">Euro</option>
+                <option value="us">US Dollar</option>
+                <option value="uk">UK Pound Sterling</option>
+                <option value="yen">Japanese Yen</option>
+                <option value="cad">Canadian Dollar</option>
+            </select>
+        </td>
+        <td id="result">
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
